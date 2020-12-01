@@ -1,7 +1,7 @@
 """Generate filtered VCF file for each RNA-Seq sample
 
 
-Usage:  python pipeline_with_filtering [individual] [fastq_1] [fastq_2] [main_dir]
+Usage:  python pipeline_with_filtering.py [individual] [fastq_1] [fastq_2] [main_dir]
 
 individual:  Sample for which you are generating filtered VCF
 [fastq_1]:  Full path to fastq_1

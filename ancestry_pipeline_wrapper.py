@@ -24,7 +24,7 @@ locations = sys.argv[2]
 main_dir = sys.argv[2]
 
 meta = pd.read_csv(meta, sep  = "\t",index_col = "sample") 
-locations = pd.read_csv(locations, sep = "\t")  #
+locations = pd.read_csv(locations, sep = "\t")  
 
 #Run pipeline on files that correspond to fibroblasts
 
